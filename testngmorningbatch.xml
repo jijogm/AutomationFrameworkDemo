@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ActitimeSuite">
+<listeners>
+<listener class-name="generic.TestngListeners"></listener>
+</listeners>
+  <test name="SmokeTest">
+    <classes>
+      <class name="scripts.TestValidLogin"/>
+      <class name="scripts.Demo"/>
+      <class name="scripts.TestInvalidLogin"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
